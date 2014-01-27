@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  	<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+       id = "com.ep@tice.poissons-001"
+        version = "1.01.14">
+        <name>Les poissons</name>
+        <description>
+          Document multimédia et interactif concernant les poissons
+        </description>
+        <author email="cbvmmb@gmail.com" href="http://mediafood.org/tice-pro">
+               Benoit Martinet  Ep@tice: Enseignement professonnel assisté par les TICE
+        </author>
+       
+		<icon src="icone.png" height="114" width="114"/>
+		<!--<gap:splash src="splash.png"  width="320" height="480"/>
+    </widget>
+	xx-->
+	
+		

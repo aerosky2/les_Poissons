@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <title>Module poissons</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta content="text/css" http-equiv="Content-Style-Type">
+  <meta name="author" content="Benoit Martinet ">
+  <meta name="keywords" content>
+  <meta name="date" content="27 janvier 2014">
+  <script type="text/JavaScript">
+/*0*/ var scServices = {};
+/*1*/ scServices["scLoad"] = {loadFromRoot:function(pUrl){window.location.href="../"+pUrl;}, getPathFromRoot:function(pPath){return "../"+pPath;}, getUrlFromRoot:function(pHref){if(!this.fRootOffset) this.fRootOffset = scCoLib.hrefBase().length-20; return pHref.substring(this.fRootOffset);},getRootUrl:function(){if(!this.fRootUrl) this.fRootUrl = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().length-21); return this.fRootUrl;}};
+</script>
+  <script src="../lib-sm/scCoLib.js" type="text/JavaScript"></script>
+  <script src="../lib-sm/scPaLib.js" type="text/JavaScript"></script>
+  <script src="../svc/scorm.js" type="text/JavaScript"></script>
+  <script src="../wdgt/tplMgr/tplMgr.js" type="text/JavaScript"></script>
+  <script type="text/JavaScript">
+/*0*/ try{var vCurrDir = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().lastIndexOf("/")+1); if(window.opener && window.opener.location.href.lastIndexOf(vCurrDir, vCurrDir.length)==0 && window.opener.scServices) scServices = window.opener.scServices; else if(window.parent && window.parent.location.href.lastIndexOf(vCurrDir, vCurrDir.length)==0 && window.parent.scServices) scServices = window.parent.scServices;}catch(e){}
+</script>
+  <meta name="generator" content="SCENARI 4.0.500 / opaleExtScReader 1.0.001 - http://scenari-platform.org/opale">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <link media="all" href="../skin/css/html.css" type="text/css" rel="stylesheet">
+  <link media="screen" href="../skin/css/struct_home.css" type="text/css" rel="stylesheet">
+  <link media="all" href="../skin/css/transf.css" type="text/css" rel="stylesheet">
+  <link href="../webMob/thirdParty/jquery.mobile-1.3.1.min.css" type="text/css" rel="stylesheet">
+  <link media="screen" href="../webMob/css/struct_home_mob.css" type="text/css" rel="stylesheet">
+  <link media="screen" href="../webMob/css/mob_spec.css" type="text/css" rel="stylesheet">
+  <script src="../webMob/thirdParty/jquery-1.9.1.min.js" type="text/JavaScript"></script>
+  <script src="../webMob/thirdParty/jquery.mobile-1.3.1.js" type="text/JavaScript"></script>
+ </head>
+ <body>
+  <div data-role="page" id="page"><header data-tap-toggle="false" data-theme="b" data-id="myheader" data-position="fixed" data-role="header" id="my-header"><h2>Module-poissons</h2></header><article data-role="content" id="tplContent"><div class="logoHome "><img src="../res/intro.jpg" width="960" height="720" alt></div><div id="main_co"><h1 id="main_ti">Module poissons</h1><div class="dataHome "><div class="authHome "><p class="op_sTxt_p">Benoit Martinet</p></div><div class="versionHome ">1.2014</div><div class="dateHome ">27 janvier 2014</div></div></div></article><footer data-tap-toggle="false" data-mini="true" data-position="fixed" data-role="footer" data-theme="b"><div style="padding-left:5px;" align="left"><h3><a target="_blank" data-role="none" id="linkSp" href="http://scenari-platform.org" title="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)"><span><img src="../skin/img/struct/scBtn.png " alt="R&eacute;alis&eacute; avec Scenari (nouvelle fen&ecirc;tre)"></span></a></h3></div><div data-mini="true" style="padding-right:5px;" data-type="horizontal" data-role="controlgroup" align="right"><a target="_self" class="ui-btn-right" href="module_poissons.html" id="startBtn" data-icon="arrow-r" data-iconpos="right" data-theme="b" data-mini="true" data-role="button" data-ajax="false"><span>Commencer</span></a></div></footer></div>
+  <script src="../skin/js/skin.js" type="text/JavaScript"></script>
+  <script src="../webMob/js/jqm_init.js" type="text/JavaScript"></script>
+  <script type="text/javascript">tplMgr.init();</script>
+ </body>
+</html>

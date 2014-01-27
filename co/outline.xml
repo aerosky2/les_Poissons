@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<outline>
+ <l c="mnu_obj" u="module_poissons.html" t="Objectifs"/>
+ <l c="mnu_intro" u="module_poissons_1.html" t="Introduction"/>
+ <b c="mnu_courseUa" u="activiteapprentissage.html" t="fraîcheur">
+  <l c="mnu_intro" u="activiteapprentissage_1.html" t="Introduction"/>
+  <l c="mnu_expUc" u="grain_criteres.html" t="critères de fraîcheur et de conservation"/>
+  <l c="mnu_conclu" u="activiteapprentissage_2.html" t="Conclusion"/>
+ </b>
+ <l c="mnu_conclu" u="module_poissons_2.html" t="Conclusion"/>
+</outline>
