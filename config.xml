@@ -13,8 +13,8 @@
         </author>
        
 		<icon src="icone.png" height="114" width="114"/>
-		<!--<gap:splash src="splash.png"  width="320" height="480"/>
+		<gap:splash src="splash.png"  width="320" height="480"/>
     </widget>
-	xx-->
+	
 	
 		
